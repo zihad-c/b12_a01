@@ -1,3 +1,4 @@
+/* shared styles */
 * {
     max-width: 1140px;
     margin: 0 auto;
@@ -9,13 +10,29 @@
     max-width: 1140px;
 } */
 
+.raleway {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
 .color-primary {
     color: #4E47FF;
 }
 
+.color-secondary {
+    color: #252432;
+}
+
 /* hero section styles  */
 .hero {
-    max-width: 1140px;
+    max-width: 100%;
     background-image: url(/images/Hero-bg.png);
 }
 
@@ -67,10 +84,12 @@ nav ul li {
 
 .heading {
     font-family: "Raleway", sans-serif;
+    font-weight: 700;
+}
+
+.banner-title {
     line-height: auto;
     font-size: 65px;
-    font-weight: 700;
-    color: #252432;
 }
 
 /* action styles */
@@ -148,4 +167,63 @@ nav ul li {
     font-size: 20px;
     font-weight: 400;
     line-height: auto;
+}
+
+/* review section styles */
+
+/* .review-section {
+    padding: 50px 0;
+} */
+
+.review-section h3 {
+    font-size: 42px;
+    line-height: auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.review-content {
+    display: flex;
+    gap: 20px;
+}
+
+.review-card {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 24px;
+    width: 360px;
+}
+
+.review-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.review-description {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.review {
+    padding: 24px 0;
+}
+
+.review-description {
+    margin-top: 8px;
+}
+
+.reviewer-icon {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.reviewer {
+    display: flex;
+    justify-content: left;
+}
+
+.reviewer-info {
+    text-align: left;
 }
