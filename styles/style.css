@@ -51,8 +51,11 @@ nav {
 .logo {
     font-family: "Inter", sans-serif;
     color: #4E47FF;
-    font-size: 34px;
     font-weight: 900;
+}
+
+#hero-logo {
+    font-size: 34px;
     line-height: 1.5em;
 }
 
@@ -233,6 +236,7 @@ nav ul li {
     align-items: center;
     padding: 70px 0;
     gap: auto;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .contact-form-heading {
@@ -251,4 +255,36 @@ nav ul li {
     width: 497px;
     height: 62px;
     padding: 19px 101px;
+}
+
+/* footer section styles */
+
+#footer {
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 100px;
+}
+
+.footer-subtitle {
+    font-weight: 400;
+    width: 531px;
+    margin-top: 8px;
+    color: rgba(137, 135, 161, 1);
+}
+
+.footer-nav ul {
+    display: flex;
+    gap: 48px;
+    justify-content: space-evenly;
+    text-decoration: none;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.footer-nav ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    color: rgba(137, 135, 161, 1);
 }
