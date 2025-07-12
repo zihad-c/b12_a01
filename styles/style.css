@@ -190,12 +190,13 @@ nav ul li {
 .review-content {
     display: flex;
     gap: 20px;
+    justify-content: flex-start;
 }
 
 .review-card {
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 24px;
-    width: 360px;
+    width: 366px;
 }
 
 .review-title {
@@ -218,7 +219,7 @@ nav ul li {
     margin-top: 8px;
 }
 
-.reviewer-icon {
+.reviewer-photo .reviewer-icon {
     height: 40px;
     width: 40px;
     border-radius: 50%;
@@ -226,7 +227,8 @@ nav ul li {
 
 .reviewer {
     display: flex;
-    justify-content: left;
+    gap: 5px;
+    justify-content: flex-start;
 }
 
 .reviewer-info {
