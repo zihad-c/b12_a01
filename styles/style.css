@@ -41,8 +41,8 @@ button:hover {
     text-align: center;
 }
 
-nav {
-    max-width: 1140px;
+#header-nav {
+    max-width: 100%;
     padding: 50px 0;
     display: flex;
     /* gap: auto; */
@@ -299,14 +299,18 @@ textarea {
     color: rgba(137, 135, 161, 1);
 }
 
-.footer-nav ul {
+#footer-nav {
+    width: 531px;
+}
+
+#footer-nav ul {
     display: flex;
     gap: 48px;
     justify-content: space-evenly;
-    padding: 0 10px;
+    padding: 0 55px;
 }
 
-.footer-nav ul li a {
+#footer-nav ul li a {
     text-decoration: none;
     font-weight: 400;
     color: rgba(137, 135, 161, 1);
