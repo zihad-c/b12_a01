@@ -6,9 +6,15 @@
     /* overflow: hidden; */
 }
 
-/* body {
-    max-width: 1140px;
-} */
+body {
+    box-sizing: border-box;
+}
+
+button:hover {
+    color: #000;
+    background-color: chocolate;
+    transition: ease;
+}
 
 .raleway {
     font-family: "Raleway", sans-serif;
@@ -230,18 +236,19 @@ nav ul li {
     text-align: left;
 }
 
+/* contact section styles */
 #contact {
     display: flex;
     align-items: center;
-    padding: 70px 0;
+    padding: 70px 10px;
     gap: auto;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 47, 255, 0.039);
 }
 
 .contact-form-heading {
     font-size: 97px;
     color: #000;
-    line-height: 120%;
+    line-height: 1.2em;
 }
 
 #contact-form form input {
@@ -254,6 +261,12 @@ nav ul li {
     width: 497px;
     height: 62px;
     padding: 19px 101px;
+}
+
+#get-in-touch-btn:hover {
+    color: #000;
+    background-color: chocolate;
+    transition: 0.3s ease;
 }
 
 /* footer section styles */
