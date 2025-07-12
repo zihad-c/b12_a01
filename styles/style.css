@@ -61,9 +61,13 @@ button:hover {
     line-height: 1.5em;
 }
 
-nav ul li {
-    text-decoration: none;
+#header-nav ul li {
+    /* text-decoration: none; */
     list-style: none;
+}
+
+#header-nav ul li a {
+    text-decoration: none;
 }
 
 .btn-primary {
@@ -310,6 +314,10 @@ textarea {
     gap: 48px;
     justify-content: space-evenly;
     padding: 0 55px;
+}
+
+#footer-nav ul li {
+    list-style: none;
 }
 
 #footer-nav ul li a {
