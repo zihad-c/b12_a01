@@ -42,7 +42,6 @@
 
 nav {
     max-width: 1140px;
-    height: 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -261,6 +260,8 @@ nav ul li {
 
 #footer {
     text-align: center;
+    padding: 104px 0;
+    background-color: #fff;
 }
 
 .footer-title {
@@ -271,6 +272,7 @@ nav ul li {
     font-weight: 400;
     width: 531px;
     margin-top: 8px;
+    margin-bottom: 20px;
     color: rgba(137, 135, 161, 1);
 }
 
@@ -278,9 +280,7 @@ nav ul li {
     display: flex;
     gap: 48px;
     justify-content: space-evenly;
-    text-decoration: none;
     padding: 0 10px;
-    margin: 0 auto;
 }
 
 .footer-nav ul li a {
