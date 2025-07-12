@@ -45,8 +45,8 @@ button:hover {
     max-width: 100%;
     padding: 50px 0;
     display: flex;
-    /* gap: auto; */
-    /* justify-content: space-between; */
+    gap: 800px;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -62,7 +62,6 @@ button:hover {
 }
 
 #header-nav ul li {
-    /* text-decoration: none; */
     list-style: none;
 }
 
